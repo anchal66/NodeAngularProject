@@ -1,0 +1,4 @@
+<textarea rows="6" [value]="newPost" #userInput></textarea>
+<br>
+<button (click)="onAddPost(userInput)">Post</button>
+<p>{{newPost}}</p>
